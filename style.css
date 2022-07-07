@@ -1,0 +1,1047 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+p{
+    margin-top: 30px;
+    font-size: 22px;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: grid;
+    grid-template-areas:
+    'logo logo link link'
+    ;
+    background-color: rgb(9, 9, 9);
+    height: 110px;
+    
+}
+nav .logo{
+    height: 100px;
+    
+    margin-left: 30px;
+
+    grid-area: logo;
+}
+nav #img-btn{
+    display: none;
+}
+#click{
+    display: none;
+}
+nav .item-link{
+    grid-area: link;
+    margin-top: 50px;
+    transition: all 1s
+}
+   /* social media link in link item  */
+   .sm-link{
+    visibility: hidden;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-left: 2px;
+    position: relative;
+    top: 0;
+    right:1000px;
+    color: white;
+ }
+ .sm-link:hover{
+    color: yellow;
+ }
+.item-link a{
+    color: white;
+    transition: all 1s;
+}
+nav .link{
+    position: relative;
+    left: 0%;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+
+}
+.item-link a:hover{
+    background-color: white;
+    color: black;
+    border: 100px;
+    font-weight: bolder;
+    border-radius: 25px 0 0 25px;
+}
+#main{
+    margin-top:0px;
+    background:url('pexels-photo-509922.webp');
+    height: 750px;
+    text-align: center;
+    margin-bottom: 0;
+}
+/* plarform name  */
+ #main .h2{
+   padding-top: 50px;
+   margin-left: 40px;
+   font-size: 40px;
+    color:darkblue;
+    font-family: 'Rubik Moonrocks', cursive;
+
+} 
+
+#main h2{
+    color: rgb(15, 15, 16);
+    max-width: fit-content;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 240px;
+    /* font-family: 'Rubik Moonrocks', cursive; */
+    
+    font-family: 'Satisfy', cursive;
+   
+}
+/* this is for hero section img (education) */
+#main #hero-img{
+  
+    height: 500px;
+     margin-top: 30px;
+    opacity:.9;
+    border-radius: 57% 43% 50% 50% ;
+    box-shadow: 2px 2px 8px black;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-left:50px;
+}
+
+/* css for link list horizontal  */
+
+/* ///////////// css for first row (html css javascript) */
+.row-1{
+    
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+    color: white;
+   text-align: center;
+}
+.list-one{
+   flex-basis: 30%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+}
+.list-one img{
+    width: 200px;
+   
+}
+.list-one h2{
+    color: black;
+    text-align: center;
+}
+.list-one p{
+    height: auto;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+/* .list-one img{
+    margin-bottom: 100px;
+} */
+/* row second for (php python  and java ) /////////////////   */
+
+.row-2{
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+     color: white;
+     height: fit-content;
+    
+ }
+ .list-two{
+    flex-basis: 30%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+ }
+ .list-two img{
+     width: 200px;
+    
+ }
+ .list-two h2{
+     color: black;
+     text-align: center;
+     
+ }
+ .list-two p{
+    height: auto;
+    margin: auto;
+     color: black;
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 10px;
+     text-align: center;
+     background-color: antiquewhite;
+ }
+
+ /* row three is here for (kotlin mysql c languagae ) ////////// */
+
+ .row-3{
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+     color: white;
+     height: fit-content;
+    
+ }
+ .list-three{
+    flex-basis: 30%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+ }
+ .list-three img{
+     width: 200px;
+    
+ }
+ .list-three h2{
+     color: black;
+     text-align: center;
+ }
+ .list-three p{
+    height: auto;
+    margin: auto;
+     color: black;
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 10px;
+     text-align: left;
+     background-color: antiquewhite;
+ }
+ .row-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ .list-four{
+    text-align: center;
+    flex-basis: 30%;
+ }
+.list-four img{
+    width: 200px;
+}
+ .list-four p{
+    height: auto;
+    /* width: 400px; */
+    margin: auto;
+    /* margin-left:500px;
+    margin-right: 500px; */
+     color: black;
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 15px;
+     margin-right: 15px;
+     text-align: left;
+     background-color: antiquewhite;
+ }
+
+ .pdf-heading{
+    background-color: black;
+    color: white;
+    width:100%;
+    font-size:14px;
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+   }
+
+ /*////////////////////// material//////////////////////// */
+#material{
+    margin-top: 20px;
+    display: grid;
+    grid-template-areas: 
+
+    'html'
+    'css'
+    'js '
+    'php'
+    'mysql '
+    'python'
+    'java '
+    'kotlin'
+    'react '
+    'json'
+    ;
+    /* background:url('pexels-photo-716398.webp'); */
+   
+}
+#material button{
+    margin-top: 60px;
+}
+main .html{
+    
+    height: fit-content;
+   
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+
+    grid-area:html;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+main .html:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    color: white;
+    box-shadow: 2px 3px 7px black;
+}
+main .css{
+   
+    height: fit-content;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: css;
+    transition: all 1s;
+}
+main .css:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .js{
+    
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: js;
+    transition: all 1s;
+}
+main .js:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .php{
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: php;
+    transition: all 1s;
+}
+main .php:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .mysql{
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: mysql;
+    transition: all 1s;
+}
+main .mysql:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .python{
+ 
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: python;
+    transition: all 1s;
+}
+main .python:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .java{
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: java;
+    transition: all 1s;
+}
+main .java:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .kotlin{
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: kotlin;
+    transition: all 1s;
+}
+main .kotlin:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .react{
+    
+    height: fit-content;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: react;
+    transition: all 1s;
+}
+main .react:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main .json{
+ 
+    height: fit-content;
+    
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    grid-area: json;
+    transition: all 1s;
+}
+main .json:hover{
+    background-color: rgba(20, 21, 21, 0.664);
+    box-shadow: 2px 3px 7px black;
+}
+main a button{
+    margin:3px 0 20px 20px;
+}
+.link-list-hori{
+    background-color: rgba(113, 111, 111, 0.518);
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 25px;
+    justify-content: space-around;
+    transition: all 1s;
+}
+
+.link-list-hori img{
+ 
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.link-list-hori img:hover{
+    background-color:black;
+}
+.video-tutorial{
+    
+    background-color: black;
+    color: white;
+    width:100%;
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background: rgb(106, 117, 150);
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-details img{
+    width: 100px;
+}
+.footer-details{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-basis: 30%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.footer-details h2,h3{
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-details .create{
+    color: rgba(45, 53, 53, 0.405);
+}
+.footer-details .footer-link{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-link:hover{
+    color:rgba(243, 206, 112, 0.742);
+}
+
+.footer-details a{
+    color: black;
+    padding-bottom: 10px;
+}
+.footer-details a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.link-item{
+    display: block;
+}
+
+.copy-rgt{
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*  button pulse animation ///////////////////// */
+button{
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation{
+
+    0%{
+        box-shadow: 0 0 0 0px rgba(237, 231, 231, 0.811);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0,0,0,0);
+    }
+} 
+/* #contact-us iframe{
+    height: 500px;                                   google map
+    width: 1000px;
+} */
+
+
+
+
+/*
+////////////////////////////////////////       1040px 1040px 1040px ////////////////////////////////////////////////
+*/
+
+@media(max-width:1040px){
+
+    nav .link{
+        display:block;
+        font-size: 24px;
+        margin: 50px 80px 0 30px;
+    }
+    #click:checked~.item-link{
+        left:0%;
+    }
+    #click{
+        display: none;
+    }
+    nav #img-btn{
+        display:inline;
+        height: 80px;
+        position: fixed;
+        top: 20px;
+        right: 40px;
+    }
+    nav .item-link{
+         display: block;
+        position: fixed;
+        top:30px;
+        left: -200%;
+        background-color: black;
+        height: 100vh;
+        z-index: 10;
+        transition: all 1.5s;
+    }
+       /* social media link in link item  */
+       .sm-link{
+        
+        padding-left: 20px;
+        margin-top: 50px;
+        position: relative;
+        left: 60px;
+        
+     }
+
+    #main{
+        
+        height: 900px;
+        text-align: center;
+    }
+    #main .h2{
+        margin-right:800px;
+    }
+    #main h2{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    #main #hero-img{
+        height: 300px;
+        
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 50px;
+        z-index: -10;
+    }
+    /* #container{
+        
+        grid-template-areas: 
+        'list1'
+        'list2'
+        'list3'
+        'list4'
+        'list5'
+        'list6'
+        'list7'
+        'list8'
+        'list9'
+        'list10'
+        ;
+       height: fit-content;
+    }
+    .l1{
+         
+         color: white;
+         margin-top: 0px;
+         /* background: rgb(78, 38, 117); */
+       /*  
+         border-radius: 25px 25px 0 0;
+    }
+    .l2{
+    
+        color: white;
+        margin-top: 0px;
+        /* background: rgb(156, 124, 187); */
+        
+   /* }
+    .l3{
+    
+        color: white;
+        margin-top: 0px;
+        
+      
+        border-radius: 0;
+
+    }
+    .l4{
+    
+        color: white;
+        margin-top: 0px;
+        
+      
+        border-radius: 0;
+
+    }
+    .l5{
+    
+        color: white;
+        margin-top: 0px;
+
+      
+        border-radius: 0;
+
+    }
+    .l6{
+    
+        color: white;
+        margin-top: 0px;
+        
+      
+        border-radius: 0;
+
+    }
+    
+    .l7{
+    
+        color: white;
+        margin-top: 0px;
+        
+      
+        border-radius: 0;
+
+    }
+    .l8{
+    
+        color: white;
+        margin-top: 0px;
+       
+      
+        border-radius: 0;
+
+    }
+    .l9{
+    
+        color: white;
+        margin-top: 0px;
+       
+      
+        border-radius: 0;
+
+    }
+    .l10{
+    
+        color: white;
+        margin-top: 0px;
+        
+      
+        border-radius: 0 0 100px 100px;
+
+    } */
+
+    /* row one */
+    .row-1{
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+       /* row two */
+       .row-2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+       /* row three */
+       .row-3{
+        flex-direction: column;
+        text-align: center;
+    }
+    .row-4{
+        margin-bottom: 30px;
+    }
+    
+   .pdf-heading{
+    background-color: black;
+    color: white;
+    width:100%;
+    font-size:14px;
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+   }
+
+    #material{
+        
+        margin-top: 20px;
+        margin-left: 0;
+        display: grid;
+        grid-template-areas: 
+        'html'
+        'css'
+        'js'
+        'php'
+        'mysql'
+        'python' 
+        'java'
+        'kotlin'
+        'react'
+        'json'
+        ;
+    }
+    main .html{
+         height: fit-content;
+         margin:20px;
+    }
+    main .css{
+        height: fit-content;
+        margin:20px;
+    }
+    main .js{
+        height: fit-content;
+        margin: 20px;
+    }
+    main .php{
+        height: fit-content;
+        margin: 20px;
+    }
+    main .java
+    {
+        height: fit-content;
+        margin: 20px;
+    }
+    main .kotlin{
+        height: fit-content;
+        margin: 20px;
+    }
+    main .json{
+        height: fit-content;
+        margin: 20px;
+        margin-bottom: 10px;
+    }
+    main .python{
+        height: fit-content;
+        margin:20px;
+    }
+    main .react{
+        height: fit-content;
+        margin: auto;
+    }
+    main .mysql{
+        height: fit-content;
+        margin: 20px;
+    }
+    .link-list-hori
+    {
+        border: 1px solid wheat;
+        height: fit-content;
+        background-color: rgba(94, 91, 91, 0.412);
+        padding: 20px 0 40px 0;
+    }
+
+.video-tutorial{
+ background-color: black;
+ color: white;
+ width:100%;
+ 
+ margin: 0;
+ visibility: visible;
+ text-align: center;
+}
+    .footer{
+        flex-direction: column;
+    }
+    .footer-details{
+        margin-top: 5px;
+        margin-bottom:0;
+    }
+    .footer-details a{
+        padding: 0px 0 10px 0;
+    }
+    
+}
+
+
+
+
+
+/* //////////////////////       850px    (for contact us form 850px )                          */
+
+
+@media (max-width:950px){
+    #contact-us{
+        margin-top: -30px;
+        border-radius:25px 25px 0 0;
+        background: rgb(106, 117, 150);
+        height: 700px;
+        ;
+            display: grid;
+            grid-template-areas:
+            
+            'img '
+            'link'
+            'social'
+            ;
+           
+            background: rgb(106, 117, 150);
+        
+        }
+
+}
+
+/*
+////////////////////////   600px    600px         600px /////////////////////////////////////////////
+*/
+
+@media (max-width:600px){
+    nav .link{
+        font-size: 16px;
+        margin-top: 30px;
+        
+    }
+    nav .item-link{
+        height: 70vh;
+
+    }
+    .sm-link{
+        display: block;
+        visibility: visible;
+    }
+    #main{
+        height: fit-content;
+        text-align: center;
+    }
+    #main h2{
+        
+        padding-top:30px;
+
+        margin: auto;
+        width: 300px;
+        font-size: 25px;
+    }
+   
+    #main #hero-img{
+        height: 220px;
+       
+       margin-top: 70px;
+       margin-bottom: 60px;
+    }
+
+     /* css for row hmtl css javascript logo */
+   .row-1{
+    flex-direction: column;
+    text-align: center;
+   }
+   .list-one img{
+     width: 100px;
+   
+   }
+   .list-one p{
+    text-align: center;
+   }
+
+   .row-2{
+    flex-direction: column;
+    text-align: center;
+   }
+   .list-two{
+    justify-items: center;
+    margin: 0;
+   }
+   .list-two img{
+    width: 100px;
+   }
+ 
+
+   .row-3{
+    flex-direction: column;
+    text-align: center;
+   }
+   .list-three{
+    justify-items: center;
+    margin: 0;
+   }
+   .list-three img{
+    width: 100px;
+   }
+   .row-4{
+    margin-bottom: 30px;
+   }
+   .list-four img{
+    width: 100px;
+   }
+
+   .pdf-heading{
+    background-color: black;
+    color: white;
+    width:100%;
+    font-size:12px;
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+   }
+
+    main .html{
+        height: fit-content;
+       margin: 20px;
+       background-color: rgba(0, 0, 0, 0.659);
+   }
+   main .css{
+       height: fit-content;
+       margin: 20px;
+      
+   }
+   main .js{
+       height: fit-content;
+       margin: 20px;
+       
+   }
+   main .php{
+       height: fit-content;
+       margin: 20px;
+   }
+   main .java
+   {
+       height: fit-content;
+       margin: 20px;
+   }
+   main .kotlin{
+       height: fit-content;
+       margin: 20px;
+   }
+   main .json{
+       height: fit-content;
+       margin: 20px;
+       margin-bottom:10px;
+       background-color: rgba(0, 0, 0, 0.659);
+   }
+   main .python{
+       height: fit-content;
+       margin: 20px;
+   }
+   main .react{
+       height: fit-content;
+       margin: 20px;
+   }
+   main .mysql{
+       height: fit-content;
+       margin: 20px;
+   }  
+   .link-list-hori{padding: 40px 0 0 0;
+    visibility: visible;
+    height: fit-content;
+    background:rgba(103, 100, 100, 0.353);
+    padding: 10px 0 60px 0;
+    border-radius: 7px;
+    
+   }
+   .link-list-hori img{
+    width: 70px;
+   }
+   .video-tutorial{
+    background-color: black;
+    color: white;
+    width:100%;
+
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+   }
+
+  
+
+}
+
+@media (max-width:350px){
+    #hero-img{
+        width: 150px;
+        height: 200px;
+    }
+}

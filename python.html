@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PYTHON</title>
+    <style>
+        body{
+            background: rgb(249, 234, 200);
+            height: 800px;
+        }
+        .logo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .logo img{
+            width: 100px;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        a{  text-decoration: none;
+            color: white;
+            
+         
+        }
+        button{
+            color: white;
+                background-color: black;
+                padding: 5px 7px;
+        }
+        p{
+            height: 300px;
+            padding-top: 40px;
+            font-size: 17px;
+            background: rgba(255, 255, 255, 0.27);
+            padding-bottom: 30px;
+            box-shadow: 1px 2px rgba(51, 47, 47, 0.516);
+            border-radius: 25px;
+            /* border: 1px solid rgba(255, 255, 255, 0.52); */
+        }
+        .python-page{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        #python-notes{
+            background-color: white;
+            height: fit-content;
+            padding-bottom: 40px;
+            margin-bottom: 30px;
+            box-shadow: 2px 2px 7px black;
+            border-radius: 25px;
+        }
+        button{
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation{
+
+    0%{
+        box-shadow: 0 0 0 0px rgba(3, 1, 1, 0.933);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0,0,0,0);
+    }
+} 
+        @media (max-width:940px){
+            p{
+                height: auto;
+                padding-top: 20px;
+            }
+        }
+
+        @media (max-width:600px){
+            p{
+                height: auto;
+            }
+            a button{
+                margin: auto;
+            }
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="image">
+            <img src="\img\python.png" alt="logo">
+        </div>
+    </div>
+    <h1>PYTHON NOTES</h1>
+    <h2>About PYTHON</h2>
+    <p>
+        Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. <br><br>
+
+Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library. <br><br>
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. <br><br>
+ Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020.
+
+Python consistently ranks as one of the most popular programming languages
+    </p>
+    <h1>PYTHON PDF NOTES</h1>
+    <div class="python-page">
+    <div id="python-notes">
+        <span>
+            <i class="fa fa-file-pdf-o" style="font-size:40px ;margin: 30px 0 0 0;"></i>
+            <h2>PYTHON PDF NOTES</h2>
+           <a href="pdf/Learning_Python.pdf"><button>download<i class="fa fa-download" style="margin-left: 10px;font-size: 20px;"></i> </button></a> 
+        </span>
+      </div>
+    </div>
+</body>
+</html>

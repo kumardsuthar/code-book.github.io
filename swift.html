@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>C++</title>
+    <style>
+        body{
+            background: rgba(227, 240, 202, 0.773);
+            height: 800px;
+        }
+        .logo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .logo img{
+            width: 100px;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        a{  text-decoration: none;
+            color: white;
+            
+         
+        }
+        button{
+            color: white;
+                background-color: black;
+                padding: 5px 7px;
+        }
+        p{
+            height: 300px;
+            padding-top: 40px;
+            font-size: 17px;
+            background: rgba(255, 255, 255, 0.27);
+            padding-bottom: 30px;
+            box-shadow: 1px 2px rgba(51, 47, 47, 0.516);
+            border-radius: 25px;
+            /* border: 1px solid rgba(255, 255, 255, 0.52); */
+        }
+        .c-plus-page{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        #c-plus-notes{
+            background-color: white;
+            height: fit-content;
+            padding-bottom: 40px;
+            margin-bottom: 30px;
+            box-shadow: 2px 2px 7px black;
+            border-radius: 25px;
+        }
+        button{
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation{
+
+    0%{
+        box-shadow: 0 0 0 0px rgba(3, 1, 1, 0.933);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0,0,0,0);
+    }
+} 
+        @media (max-width:940px){
+            p{
+                height: auto;
+                padding-top: 20px;
+            }
+        }
+
+        @media (max-width:600px){
+            p{
+                height: auto;
+            }
+            a button{
+                margin: auto;
+            }
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="image">
+            <img src="\img\c++.png" alt="logo">
+        </div>
+    </div>
+    <h1>C++ NOTES</h1>
+    <h2>About C++</h2>
+    <p>
+        C++ ::- is a general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. <br><br>
+         It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.
+
+        C++ was designed with an orientation toward systems programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. <br>
+         C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes). <br>
+    </p>
+    <h1>C++ PDF NOTES</h1>
+    <div class="c-plus-page">
+    <div id="c-plus-notes">
+        <span>
+            <i class="fa fa-file-pdf-o" style="font-size:40px ;margin: 30px 0 0 0;"></i>
+            <h2>C++ PDF NOTES</h2>
+           <a href="\pdf\cpp_tutorial.pdf"><button>download<i class="fa fa-download" style="margin-left: 10px;font-size: 20px;"></i> </button></a> 
+        </span>
+      </div>
+    </div>
+</body>
+</html>
+
+
+
+

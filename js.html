@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>JavaScript</title>
+    <style>
+        body{
+            background: rgb(214, 241, 207);
+            height: 800px;
+        }
+        .logo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+        .logo img{
+            width: 100px;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        a{  text-decoration: none;
+            color: white;
+            
+         
+        }
+         button{
+            color: white;
+                background-color: black;
+                padding: 5px 7px;
+        }
+        p{
+            height: 300px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            background: rgba(255, 255, 255, 0.27);
+            box-shadow: 1px 2px rgba(51, 47, 47, 0.516);
+            border-radius: 25px;
+            /* border: 1px solid rgba(255, 255, 255, 0.52); */
+        }
+        .js-page{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+        #js-notes{
+           text-align: center;
+           background-color: white;
+           height: fit-content;
+           padding-bottom: 40px;
+           margin-bottom: 40px;
+           border-radius: 25px;
+           box-shadow: 2px 2px 7px black;
+        } 
+        button{
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation{
+
+    0%{
+        box-shadow: 0 0 0 0px rgba(3, 1, 1, 0.933);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(0,0,0,0);
+    }
+} 
+        @media (max-width:940px){
+            p{
+                height: auto;
+                padding-top: 20px;
+            }
+        }
+
+        @media (max-width:600px){
+            p{
+                height: auto;
+            }
+            a button{
+                margin: auto;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="image">
+            <img src="\img\javascript.png" alt="logo">
+        </div>
+    </div>
+    <h1>JAVASCRIPT NOTES</h1>
+    <h2>about JAVASCRIPT</h2>
+    <p><mark>JAVASCRIPT:</mark> <br><br>
+        JavaScript often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. <br><br>
+        As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. <br><br>
+         All major web browsers have a dedicated JavaScript engine to execute the code on users' devices. <br>
+
+        JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. <br><br>
+         It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM)</p>
+         <h1>JavaScript PDF NOTES</h1>
+         <div class="js-page">
+    <div id="js-notes">
+        <span>
+            <i class="fa fa-file-pdf-o" style="font-size:40px ;margin: 30px 0 0 0;"></i>
+            <h2>JS PDF NOTES</h2>
+           <a href="pdf/SplitPDFFile_195_to_300.pdf" ><button>download<i class="fa fa-download" style="margin-left: 10px;font-size: 20px;"></i> </button></a> 
+        </span>
+      </div>
+    </div>
+</body>
+</html>
