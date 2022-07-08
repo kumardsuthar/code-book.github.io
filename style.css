@@ -890,6 +890,9 @@ button{
         height: 70vh;
 
     }
+    .menu-bar{
+        font-size:30px;
+    }
     .sm-link{
         display: block;
         visibility: visible;
@@ -1034,7 +1037,9 @@ button{
     visibility: visible;
     text-align: center;
    }
-
+   .footer-link{
+       font-size:30px;
+    }
   
 
 }
